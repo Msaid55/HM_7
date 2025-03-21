@@ -1,0 +1,65 @@
+/* General Styles */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+h1, h2, h3, h5 {
+    font-weight: 600;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+.btn {
+    border-radius: 50px;
+    padding: 5px 15px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-outline-light:hover {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+#repo-search {
+    border-radius: 50px;
+    border: 1px solid #ced4da;
+    padding: 8px 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Card Styles */
+.card {
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.hover-scale {
+    transition: transform 0.3s ease-in-out;
+}
+
+.hover-scale:hover {
+    transform: scale(1.05);
+}
+
+/* Footer Styles */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 10px 0;
+    border-top: 2px solid #495057;
+}
